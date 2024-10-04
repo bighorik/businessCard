@@ -1,0 +1,79 @@
+:root {
+    --color-accent: #FEE600;
+    --color-on-accent: #FED500;
+    --color-primary: #2B2D33;
+    --color-on-primary: #000000;
+    --color-white: #FFFFFF;
+    --color-bg: #F4F4F4;
+    --color-footer: #4C5052;
+    --color-focus: #fee50031;
+
+    --color-yellow1: #F7F3CE;
+
+    --color-gray1: rgb(170, 171, 173);
+    --color-gray2: rgb(149, 149, 151);
+    --color-gray3: rgb(213, 213, 214);
+    --color-gray4: rgb(233, 234, 234);
+
+    --color-green1: #19b28c;
+    --color-green2: #52C5A9;
+    --color-green3: rgb(191, 233, 223);
+    --color-green-text: #008E7D;
+
+    --color-red1: #EE505A;
+    --color-red2: #F27C83;
+    --color-red3: #F7B0B5;
+    --color-red-text: #C74952;
+
+
+    --H1: bold 36px/1 "Lato", Arial;
+    --H2: bold 28px/1.2 "Lato", Arial;
+    --H3: bold 22px/1.2 "Lato", Arial;
+    --H4: bold 18px/1.4 "Lato", Arial;
+
+    --B1: 500 24px/32px "Lato", Arial;
+    --B1-bold: bold 24px/32px "Lato", Arial;
+    --B2: 500 18px/1.2 "Lato", Arial;
+    --B2-bold: bold 18px/1.2 "Lato", Arial;
+    --B3: 500 16px/1.4 "Lato", Arial;
+    --B3-bold: bold 16px/1.4 "Lato", Arial;
+    --B4: 500 15px/1.4 "Lato", Arial;
+    --B4-bold: bold 15px/1.4 "Lato", Arial;
+    --B5: 500 13px/1.4 "Lato", Arial;
+    --B5-bold: bold 13px/1.4 "Lato", Arial;
+    --B6: 500 11px/1.4 "Lato", Arial;
+    --B6-bold: bold 11px/1.4 "Lato", Arial;
+
+    --counter: 700 28px/28px "Lato", Arial;
+    --stat-point: 700 40px/36px "Lato", Arial;
+    --big: 500 36px/36px "Lato", Arial;
+}
+
+@media(max-width:1279px) {
+    :root {
+        --stat-point: 700 48px/44px "Lato", Arial;
+    }
+}
+
+@media(max-width:767px) {
+    :root {
+
+        --H1: bold 28px/1.2 "Lato", Arial;
+        --H2: bold 22px/1.2 "Lato", Arial;
+        --H3: bold 18px/1.4 "Lato", Arial;
+        --H4: bold 16px/1.4 "Lato", Arial;
+
+        --B1: 5500 18px/1.2 "Lato", Arial;
+        --B1-bold: bold 18px/1.2 "Lato", Arial;
+        --B2: 500 16px/1.4 "Lato", Arial;
+        --B2-bold: bold 16px/1.4 "Lato", Arial;
+        --B3: 500 15px/1.4 "Lato", Arial;
+        --B3-bold: bold 15px/1.4 "Lato", Arial;
+        --B4: 500 13px/1.4 "Lato", Arial;
+        --B4-bold: bold 13px/1.4 "Lato", Arial;
+        --B5: 500 11px/1.4 "Lato", Arial;
+        --B5-bold: bold 11px/1.4 "Lato", Arial;
+
+        --stat-point: 700 32px/44px "Lato", Arial;
+    }
+}

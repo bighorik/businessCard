@@ -1,0 +1,57 @@
+* {
+  color: rgb(43, 45, 51);
+  letter-spacing: 0%;
+}
+
+
+
+.placeholderBlock {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intangible {
+  position: absolute;
+  max-width: 0;
+  max-height: 0;
+  z-index: -9999;
+  left: -9999px;
+  top: -9999px
+}
+
+*::-webkit-scrollbar {
+  width: 17px;
+  -webkit-appearance: none;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(118, 118, 128, 0.2);
+  border-radius: 10px;
+  border: 5px solid transparent;
+  background-clip: content-box;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+
+@media(max-width:767px) {
+  *::-webkit-scrollbar {
+    width: 0;
+  }
+}

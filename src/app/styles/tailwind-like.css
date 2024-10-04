@@ -1,0 +1,56 @@
+.f-h1 {
+  font: var(--H1);
+}
+
+.f-h2 {
+  font: var(--H2);
+}
+
+.f-h3 {
+  font: var(--H3);
+}
+
+.f-h4 {
+  font: var(--H4);
+}
+
+.f-b1 {
+  font: var(--B1);
+}
+
+.f-b2 {
+  font: var(--B2);
+}
+
+.f-b3 {
+  font: var(--B3);
+}
+
+.f-b4 {
+  font: var(--B4);
+}
+
+.f-b5 {
+  font: var(--B5);
+}
+
+.f-b6 {
+  font: var(--B6);
+}
+
+.f-big {
+  font: var(--big);
+}
+
+.animation-reverse {
+  animation-direction: reverse;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  width: 0;
+  max-width: 0;
+}
+
+.no-scrollbar::-webkit-scrollbar-thumb {
+  border: 0;
+}

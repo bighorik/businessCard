@@ -1,0 +1,37 @@
+{
+  "name": "react-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@farfetched/core": "^0.12.8",
+    "@headlessui/react": "^2.1.9",
+    "@withease/factories": "^1.0.5",
+    "classnames": "^2.5.1",
+    "dayjs": "^1.11.13",
+    "effector": "^23.2.3",
+    "effector-react": "^23.2.1",
+    "lucide-react": "^0.447.0",
+    "patronum": "^2.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "wretch": "^2.10.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.2",
+    "autoprefixer": "^10.4.20",
+    "globals": "^15.9.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.8"
+  }
+}
